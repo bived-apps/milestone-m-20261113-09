@@ -121,3 +121,22 @@ Nothing enters the template that is not read by one of the three roles, or by a 
   real ID (not `-`), run after a session has started in the checkout (before that it lists none).
 - full (release): the two above, then in a fresh clone an OpenCode session where a write to `../outside.txt` is
   refused by the guard and `.bive/state/tokens.jsonl` fills.
+
+## Local scope of this repository
+
+This section applies to the repository `bived-apps/milestone-m-20261113-09` only, and to no other repository, fork or copy of it.
+
+- **Supervisor here (owner)**: `bived-apps/milestone-m-20261113-09` is a scratch repository. The supervisor the owner assigned to it may
+  process its pull requests (read the queue, merge or decline them) without the prior qualification that *Roles*
+  asks for elsewhere.
+- **Limits**: this gives no role and no right in any other repository, production ones included, and is no
+  qualification or promotion there. It gives a coordinator no right to merge, to close a pull request or to apply the
+  owner's label; it waives no check, no label and no required status; it widens no role and no issue's scope. Every
+  other rule of this file applies unchanged.
+- **Shared account**: where the coordinator and the owner share one GitHub account, GitHub refuses the coordinator's
+  approval of a pull request. The signed `Ready to merge` comment of the coordinator assigned to the milestone, on
+  the model the owner approved, written after its review, is then the hand-over. It is not a waiver of any check and
+  not the owner's authorization: the report, the owner's dated label, the required checks, the merge pinned to the
+  reviewed head and each role's rights apply as everywhere.
+- **Starting a coordinator**: coordinators of this repository are started only with
+  `node coordination/launcher.mjs` (see `coordination/README.md`), and no agent is started any other way here.

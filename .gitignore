@@ -1,3 +1,4 @@
 .bive/state/
 .worktrees/
 .opencode/node_modules/
+coordination/events.jsonl

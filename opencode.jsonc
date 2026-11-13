@@ -12,8 +12,6 @@
       "mode": "primary",
       "system": "{file:./.bive/prompts/COORDINATOR.md}",
       "permissions": [
-        {"action": "shell", "resource": "gh pr merge *", "effect": "deny"},
-        {"action": "shell", "resource": "gh pr close *", "effect": "deny"}
       ]
     },
     "delegate": {
@@ -21,12 +19,11 @@
       "mode": "primary",
       "system": "{file:./.bive/prompts/DELEGATE.md}",
       "permissions": [
-        {"action": "shell", "resource": "gh pr merge *", "effect": "deny"},
-        {"action": "shell", "resource": "gh pr close *", "effect": "deny"}
       ]
     }
   },
   "policies": [
+    {"action": "tool.use", "resource": "shell:opencode run*", "effect": "deny"},
     {"action": "tool.use", "resource": "shell:rm -rf *", "effect": "deny"},
     {"action": "tool.use", "resource": "shell:git reset --hard *", "effect": "deny"},
     {"action": "tool.use", "resource": "shell:git rebase *", "effect": "deny"},

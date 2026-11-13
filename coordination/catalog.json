@@ -1,0 +1,178 @@
+{
+  "version": "coordinator launcher 1",
+  "currentProvider": "harbin",
+  "assigned": "harbin/falcon-6",
+  "records": [
+    {
+      "id": "tessel/cirrus-7",
+      "provider": "tessel",
+      "model": "cirrus-7",
+      "fit": 30,
+      "pricing": {
+        "status": "verified-free",
+        "input": 0,
+        "output": 0
+      },
+      "available": true,
+      "eligible": true,
+      "suitable": false,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "meridian/ion-2",
+      "provider": "meridian",
+      "model": "ion-2",
+      "fit": 98,
+      "pricing": {
+        "status": "unknown",
+        "input": null,
+        "output": null
+      },
+      "available": true,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "meridian/nimbus-1",
+      "provider": "meridian",
+      "model": "nimbus-1",
+      "fit": 88,
+      "pricing": {
+        "status": "verified-free",
+        "input": 0,
+        "output": 0
+      },
+      "available": false,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "harbin/juno-2",
+      "provider": "harbin",
+      "model": "juno-2",
+      "fit": 79,
+      "pricing": {
+        "status": "paid",
+        "input": 2,
+        "output": 8
+      },
+      "available": true,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "tessel/gale-3",
+      "provider": "tessel",
+      "model": "gale-3",
+      "fit": 72,
+      "pricing": {
+        "status": "verified-free",
+        "input": 0,
+        "output": 0
+      },
+      "available": false,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "meridian/mistral-4",
+      "provider": "meridian",
+      "model": "mistral-4",
+      "fit": 96,
+      "pricing": {
+        "status": "verified-free",
+        "input": 0,
+        "output": 0
+      },
+      "available": true,
+      "eligible": false,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "harbin/helix-2",
+      "provider": "harbin",
+      "model": "helix-2",
+      "fit": 93,
+      "pricing": {
+        "status": "paid",
+        "input": 2,
+        "output": 8
+      },
+      "available": false,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "tessel/dorado-4",
+      "provider": "tessel",
+      "model": "dorado-4",
+      "fit": 100,
+      "pricing": {
+        "status": "paid",
+        "input": 5,
+        "output": 20
+      },
+      "available": true,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "harbin/falcon-6",
+      "provider": "harbin",
+      "model": "falcon-6",
+      "fit": 90,
+      "pricing": {
+        "status": "paid",
+        "input": 2,
+        "output": 8
+      },
+      "available": true,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "id": "tessel/atlas-2",
+      "provider": "tessel",
+      "model": "atlas-2",
+      "fit": 99,
+      "pricing": {
+        "status": "verified-free",
+        "input": 0,
+        "output": 0
+      },
+      "available": false,
+      "eligible": true,
+      "suitable": true,
+      "evidence": "Task-fit rank from the owner's allow-list review; not a benchmark.",
+      "pricingSource": "Account tariff, USD per million input/output tokens",
+      "observedAt": "2026-11-13T00:00:00.000Z"
+    }
+  ],
+  "providerContext": "For this repository the owner names harbin as the current provider for coordinators, in place of the provider that serves your own session. Ids here are <provider>/<model>: the provider that serves the model through this launcher, then the model; they are not a maker's record name."
+}
